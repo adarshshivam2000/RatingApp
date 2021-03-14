@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+   <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+       android:progressTint="@color/cardview_dark_background"
+       /><!--
+       stepSize use karne pe seedha utna aage badh jayega ...,,, ex. stepsize 1 me rating 1 ka differnce aayega-->
+    <TextView
+        android:id="@+id/value"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Value : "
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+    </LinearLayout>
+
+
